@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .heading_blue {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px; 
+    color: #2238b6;
+  }
+  .heading {
+    font-size: 13px;
+  }
+  
+  .checkbox-label {
+    font-size: 12px;
+  }
+  
+  .description {
+    font-size: 12px;
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+  }
+  
+  .nested-checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nested-checkbox-label {
+    font-size: 12px;
+    margin-bottom: 4px; /* Adjust as needed for spacing */
+  }
+.description{
+font-weight: 600;
+width: 100px !important;
+}
+.custom-separator {
+  height: 200px;
+  width: 2px;
+  background-color: #ddd; /* Set the background color as needed */
+  /* border-bottom: 2px solid #999;  */
+}

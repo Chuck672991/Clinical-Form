@@ -1,0 +1,47 @@
+.form-section {
+    display: grid;
+    /* grid-template-rows: repeat(1, 1fr);
+    grid-gap: 1px; */
+    align-items: center;
+  }
+  
+   .flex {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    gap: 3px;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+  } 
+  
+  .radio-group,.checkbox-group {
+    display: flex;
+   
+    flex-direction: row;
+    margin-bottom: 10px;
+  } 
+  .checkbox-group{
+    gap: 10px;
+  }
+  .m-left{
+    margin-left: 10px;
+  }
+  .radio-group  label{
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .checkbox-group  label{
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .patient-status-label{
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+  .checkbox-label{
+    font-size: 14px;
+    font-weight: 600;
+  }
