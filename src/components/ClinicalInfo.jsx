@@ -26,6 +26,8 @@ const ClinicalInfo = () => {
     borderColor: '#e0e0e0',
     fontSize: '12px',
     height:"15px" ,
+    backgroundColor:" rgba(38, 165, 182, 0.1)",
+
     width: '100%', 
     marginBottom:"5px",
 

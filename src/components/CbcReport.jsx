@@ -14,7 +14,7 @@ const CbcReport = () => {
     fontSize: "13px",
   };
   const gridContainer = {
-    margin: "10px 30px ",
+
     gap: "10px",
   };
   const containerStyleWithOutBorder = {
@@ -34,13 +34,14 @@ const CbcReport = () => {
   };
 
   const textareaStyle = {
-    borderColor: "#e0e0e0",
     fontSize: "12px",
-    height: "15px",
+
+    backgroundColor:" rgba(38, 165, 182, 0.1)",
     width: "100%",
+    height:"17px",
+    marginLeft:"2px",
     marginBottom: "5px",
 
-    // padding: "8px",
   };
   const heading = {
     backgroundColor: "rgb(79, 149, 214)",
