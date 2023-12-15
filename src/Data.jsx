@@ -50,6 +50,7 @@ export const consultation = [
       
   ];
   
+  
   // export const cytogeneticsData = {
   //   oncologyChromosomeAnalysis: false,
   //   reflexToFISH: false,

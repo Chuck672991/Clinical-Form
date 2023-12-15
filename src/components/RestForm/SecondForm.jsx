@@ -4,6 +4,10 @@ import "./SecondForm.css";
 import Consultation from "../RestFormComponents/Consultation";
 import Cytogenics from "../RestFormComponents/Cytogenics";
 import FlowCytometry from "../RestFormComponents/Flowcytometry";
+import MolecularGenitics from "../RestFormComponents/MolecularGenitics";
+import Fish from "../RestFormComponents/Fish";
+import Neotype from "../RestFormComponents/Neotype";
+import FlexReport from "../RestFormComponents/FlexReport";
 
 const SecondForm = () => {
   const Item = ({ children }) => <div className="custom-item">{children}</div>;
@@ -25,16 +29,15 @@ const SecondForm = () => {
           <FlowCytometry/>
         </Grid>
         <Grid item xs={6} border={1} md={5} className="moleculargenitics">
-          moleculargenitics
-        </Grid>
+<MolecularGenitics/>       
+ </Grid>
         <Grid item xs={6} border={1} md={7} className="fish">
-          fish
+          <Fish/>
         </Grid>
         <Grid item xs={6} border={2} md={5} className="neotype">
-          nellooo
+          <Neotype/>
           <Grid item xs={6} border={1} md={12} className="flexReport">
-            po;ooo
-          </Grid>
+<FlexReport/>          </Grid>
         </Grid>
       </Grid>
     </>

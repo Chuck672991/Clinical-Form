@@ -251,10 +251,10 @@ const Speciment = () => {
         </Grid>
       </Grid>
 
-      <Grid item md={12}>
+      <Grid container>
         <Grid
           style={containerStyleWithOutBorder}
-          md={8}
+          md={4}
           className="form-section"
         >
           <label>Hospital Discharge Date:</label>
@@ -262,26 +262,10 @@ const Speciment = () => {
             style={textareaStyle}
             type="date"
             name="dischargeDate.month"
-            placeholder="mm"
-            value={formData.dischargeDate.month}
-            onChange={handleChange}
+            value={formData.dischargeDate}
+            onChange={handleDateChange}
           />
-          <Input
-            style={textareaStyle}
-            type="text"
-            name="dischargeDate.day"
-            placeholder="dd"
-            value={formData.dischargeDate.day}
-            onChange={handleChange}
-          />
-          <Input
-            style={textareaStyle}
-            type="text"
-            name="dischargeDate.year"
-            placeholder="yyyy"
-            value={formData.dischargeDate.year}
-            onChange={handleChange}
-          />
+    
         </Grid>
       </Grid>
       <Grid item md={12}>
